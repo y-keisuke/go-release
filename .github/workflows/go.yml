@@ -23,7 +23,7 @@ jobs:
         run: go get -v -t -d ./...
 
       - name: Test code
-        run: go test -v .
+        run: go test -v ./src
 
   goreleaser:
     runs-on: ubuntu-latest
