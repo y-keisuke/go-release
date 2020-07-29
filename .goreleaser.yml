@@ -5,8 +5,8 @@ before:
   hooks:
     - go mod tidy
 builds:
-  - main: .
-#    binary: go-release
+  - main: ./src
+    binary: go-release
     ldflags:
       - -s -w
       - -X main.Version={{.Version}}
