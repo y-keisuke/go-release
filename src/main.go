@@ -6,4 +6,5 @@ func returnStr(str string) string {
 
 func main() {
 	returnStr("Hello World!")
+	returnStr("Hello World!")
 }
